@@ -1,0 +1,93 @@
+.community{
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.comm{
+  margin: 8vh 0 8vh 0;
+}
+.nav{
+  border: 1px solid #000000;
+  box-shadow: 4px 4px 4px 0px #00000040;
+  height: 25vh;
+  width: 85vw;
+  margin-left: 5vw;
+  margin-bottom: 5vh;
+  padding: 2vh 2vw;
+  background-color: #555658;
+  border-radius: .5rem;
+}
+.nav img{
+  height: 10vh;
+  width: 5vw;
+  margin-top: 2vh;
+}
+.feeds{
+  display: flex;
+}
+.post{
+  height: 5vh;
+  width: 75vw;
+  border-radius: 2rem;
+  padding: 3px 10px;
+  border: none;
+  position: relative;
+  left: 1vw;
+  bottom: 4.5vh;
+}
+.todo img{
+  height: 4vh;
+  width: 2vw;
+  position: relative;
+  bottom: 2vh;
+}
+.todo{
+  height: 4vh;
+  width: 7vw;
+  background-color: #fff;
+  padding: 1vh 1vw;
+  border-radius: .5rem;
+}
+.todo span{
+  position: relative;
+  bottom: 3vh;
+  margin-left: 1vw;
+  color: #BB362A;
+  font-size: 1.1vw;
+  font-weight: 500;
+  margin-left: .1vw;
+}
+.left{
+  box-shadow: 4px 0px 8px 0px #BB362A26;
+  height: 207vh;
+  width: 20vw;
+  padding-top: 2vh;
+}
+.left h2{
+  color: #BB362A;
+  font-size: 1.8vw;
+  font-weight: 600;
+  margin-left: 2vw;
+}
+.chat{
+  height: 7vh;
+  width: 16.4vw;
+  box-shadow: 0px 2px 4px 0px #00000040;
+  border-radius: .5rem;
+  padding: 2vh 1vw 1vh 2.5vw;
+}
+.comm h3{
+  color: #BB362A;
+  font-size: 1.6vw;
+  font-weight: 500;
+}
+.time{
+  font-size: 1vw;
+  color: #BB362A;
+  position: relative;
+  bottom: 8vh;
+  text-align: end;
+}
+.right{
+  margin-left: 3vw;
+}

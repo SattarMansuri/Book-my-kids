@@ -1,0 +1,71 @@
+.login{
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.content{
+  margin: 8vh 0 8vh 12vw;
+}
+.content h2{
+  color: #BB362A;
+  font-size: 1.8vw;
+  margin-bottom: 2vh;
+}
+.content p{
+  font-size: 1.5vw;
+}
+.loginform{
+  box-shadow: 4px 4px 4px 0px #00000040;
+  height: 70vh;
+  width: 26vw;
+  background-color: #000000;
+  margin: 8vh 0vw 2vh 25vw;
+  padding: 2vh 2vw;
+  border-radius: .5rem;
+}
+.loginform h2{
+  text-align: center;
+}
+.loginform span{
+  color: #fff;
+  font: 1vw;
+}
+.email{
+  height: 3vh;
+  padding: 5px 15px;
+  width: 24vw;
+  margin-bottom: 1vh;
+  border-radius: .3rem;
+}
+.pass{
+  height: 3vh;
+  padding: 5px 15px;
+  width: 24vw;
+  margin-bottom: 1vh;
+  border-radius: .3rem;
+}
+.check{
+  height: 4vh;
+  position: relative;
+  top: .5vh;
+}
+.loginform button{
+  height: 5vh;
+  width: 10vw;
+  background-color: #BB362A;
+  border: none;
+  font-size: 1.2vw;
+  font-weight: 500;
+  color: #fff;
+  border-radius: .5rem;
+  margin-top: 4vh;
+  cursor: pointer;
+  margin-left: 8vw;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+.forgot{
+  font-size: 1vw;
+  font-weight: 200;
+  margin-left: 8.5vw;
+}

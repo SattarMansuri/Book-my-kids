@@ -1,0 +1,15 @@
+.applied{
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.main{
+  margin: 8vh 3vw 8vh 0;
+  display: flex;
+}
+.main h2{
+  font-size: 1.8vw;
+  font-weight: 500;
+  margin-left: 5vw;
+  color: #BB362A;
+}

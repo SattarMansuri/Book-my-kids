@@ -1,0 +1,41 @@
+.jobpost{
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.job{
+  margin: 8vh 0 8vh 7vw;
+}
+.search{
+  height: 4vh;
+  width: 86vw;
+  margin-left: -2vw;
+  padding: 3px 2vw;
+  border-radius: 1rem;
+  font-size: 1vw;
+}
+.searchLogo{
+  position: relative;
+  top: 1vh;
+  font-size: 1.5vw;
+}
+.filter{
+  background-color: #555658;
+  height: 22vh;
+  width: 86vw;
+  margin: 5vh -.5vw 5vh;
+  padding: 3px 2vw;
+  border-radius: 1rem;
+  font-size: 1vw;
+}
+.filter button{
+ height: 5vh;
+ width: 12vw;
+ margin-top: 2vh;
+ border-radius: .5rem;
+ font-size: 1.2vw;
+ font-weight: 600;
+ color: #fff;
+ background: linear-gradient(90deg, #BB362A 0%, #F15042 100%);
+ box-shadow: 0px 4px 4px 0px #00000040;
+}

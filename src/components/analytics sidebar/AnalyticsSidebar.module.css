@@ -1,0 +1,35 @@
+.side{
+  box-shadow: 4px 0px 8px 0px #BB362A26;
+  width: 15vw;
+  height: 100vh;
+}
+.side div{
+  margin-bottom: 2vh;
+  padding: 3px 1vw;
+  height: 4vh;
+  font-size: 1.2vw;
+}
+.applied{
+  padding: 1.5vh 9vw 1.5vh 1vw;
+  font-size: 1.3vw;
+  text-decoration: none; 
+  color: black;
+}
+.progress{
+  padding: 1.5vh 6.7vw 1.5vh 1vw;
+  font-size: 1.3vw;
+  text-decoration: none; 
+  color: black;
+}
+.completed{
+  padding: 1.5vh 6.7vw 1.5vh 1vw;
+  font-size: 1.3vw;
+  text-decoration: none; 
+  color: black;
+}
+.profile{
+  padding: 1.5vh 6.2vw 1.5vh 1vw;
+  font-size: 1.3vw;
+  text-decoration: none; 
+  color: black;
+}

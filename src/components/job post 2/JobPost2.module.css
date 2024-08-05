@@ -1,0 +1,111 @@
+.job{
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.jobpost{
+  margin: 8vh 2vw 8vh 2vw;
+  height: 250vh;
+  width: 90vw;
+  padding: 2vh 3vw;
+  background: linear-gradient(270deg, #545557 0%, #030812 100%);
+  border-radius: .5rem;
+}
+.jobpost h2{
+  color: #BB362A;
+  font-size: 1.7vw;
+  font-weight: 500;
+  margin: 2vh 0 2vh 0;
+}
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vw;
+}
+.projects span{
+  padding: 3px 15px;
+  color: #BB362A;
+  background-color: #fff;
+  border-radius: .3rem;
+  cursor: pointer;
+}
+.jobpost label{
+  font-size: 1.2vw;
+  font-weight: 600;
+}
+.same{
+  height: 4vh;
+  width: 42vw;
+  padding: 2px 10px;
+  font-size: 1vw;
+  margin-right: 2vw;
+  border-radius: .3rem;
+  margin-top: 1vh;
+  border: none;
+}
+.nosame{
+  height: 4vh;
+  width: 87.5vw;
+  padding: 2px 10px;
+  font-size: 1vw;
+  margin-right: 2vw;
+  border-radius: .3rem;
+  margin-top: 1vh;
+  border: none;
+}
+.jobpost textarea{
+  height: 13vh;
+  width: 87.5vw;
+  padding: 2px 10px;
+  font-size: 1vw;
+  margin-right: 2vw;
+  border-radius: .3rem;
+  margin-top: 1vh;
+  resize: none;
+  margin-bottom: 2vh;
+  border: none;
+}
+.start{
+  height: 4vh;
+  width: 27vw;
+  padding: 2px 10px;
+  font-size: 1vw;
+  margin-right: 2vw;
+  border-radius: .3rem;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+  border: none;
+}
+.setskills{
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+.eachskill{
+  background-color: #fff;
+  border-radius: .2rem;
+  margin-bottom: 1vh;
+  color: #BB362A;
+  padding: 1px 3px;
+  font-size: 1vw;
+  margin-right: 1vw;
+}
+.eachskill span{
+  color: #BB362A;
+  margin-left: 1vw;
+  cursor: pointer;
+}
+.jobpost button{
+  height: 5vh;
+  width: 87.5vw;
+  background-color:#BB362A;
+  margin-left: .7vw;
+  border: none;
+  border-radius: .3rem;
+  cursor: pointer;
+  font-size: 1.1vw;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  top: 8vh;
+}

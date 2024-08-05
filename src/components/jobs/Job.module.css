@@ -1,0 +1,51 @@
+.job{
+  height: 15vh;
+  width: 80vw;
+  border: 1px solid #EDEFF5;
+  border-radius: .3rem;
+  margin-bottom: .5vh;
+}
+.job img{
+  height: 10vh;
+  width: 5vw;
+  border-radius: .2rem;
+  margin-top: 2.5vh;
+  margin-left: 2vw;
+}
+.title{
+  position: relative;
+  left: 9vw;
+  bottom: 10vh;
+}
+.skill{
+  background-color: #BB362A;
+  padding: 3px 10px;
+  border-radius: 1rem;
+  font-size: 1vw;
+  margin-left: 1vw;
+  color: #fff;
+}
+.location{
+  color: #636A80;
+  font-size: .8vw;
+}
+.time{
+  color: #636A80;
+  font-size: .8vw;
+  margin-left: 2vw;
+}
+.left{
+  position: relative;
+  left: 65vw;
+  bottom: 18vh;
+}
+.left button{
+  height: 5vh;
+  width: 10vw;
+  font-size: 1vw;
+  color: #fff;
+  background-color: #BB362A;
+  border: none;
+  cursor: pointer;
+  margin-left: 1vw;
+}

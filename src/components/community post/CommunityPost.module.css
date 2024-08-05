@@ -1,0 +1,31 @@
+.comm{
+  height: 60vh;
+  width: 70vw;
+  padding: 3vh 2vw;
+  border: 0.4px solid #000000;
+  box-shadow: 4px 4px 4px 0px #00000040;
+  margin-bottom: 5vh;
+}
+.comm img{
+  height: 10vh;
+  width: 4.5vw;
+}
+.comm h2{
+  font-size: 1.7vw;
+  font-weight: 500;
+  color: #BB362A;
+}
+.comm p{
+font-size: 1vw;
+}
+.comm span{
+  color: #BB362A;
+  font-size: 1.1vw;
+  position: relative;
+  bottom: .8vh;
+  font-weight: 500;
+}
+.logos{
+  display: flex;
+  justify-content: space-evenly;
+}

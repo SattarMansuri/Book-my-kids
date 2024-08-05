@@ -1,0 +1,71 @@
+.job{
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.main{
+  margin: 8vh 5vw 8vh 8vw;
+}
+.swiper{
+  height: 50.5vh;
+  width: 70vw;
+  padding: 2vh 0;
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  gap: 2vw;
+}
+.slides{
+  width: 37vw;
+  height: 42vh;
+  position: relative;
+}
+.slide{
+  /* width: 37vw; */
+  height: 42vh;
+  object-fit: cover;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  cursor: pointer;
+}
+.title{
+  font-size: 4vw;
+  color: #BB362A;
+  font-weight: 500;
+  margin-bottom: 5vh;
+}
+.main p{
+  font-size: 1.2vw;
+  margin-bottom: 5vh;
+}
+.ques{
+  font-size: 1.4vw;
+  font-weight: 500;
+  margin-bottom: 5vh;
+}
+.else{
+  font-size: 1.2vw;
+  margin-top: 5vh;
+}
+.other{
+  height: 5vh;
+  width: 15vw;
+  background-color: #fff;
+  font-size: 1.1vw;
+  font-weight: 500;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+.next{
+  height: 5vh;
+  width: 15vw;
+  background-color: #BB362A;
+  font-size: 1.1vw;
+  font-weight: 500;
+  border-radius: .5rem;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  margin-left: 35vw;
+  margin-top: 10vh;
+}

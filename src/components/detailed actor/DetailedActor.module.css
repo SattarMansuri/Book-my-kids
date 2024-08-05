@@ -1,0 +1,68 @@
+.actor{
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.actorSec{
+  margin: 8vh 0 8vh 2vw;
+  display: flex;
+}
+.leftSec{
+  width: 15vw;
+}
+.leftSec img{
+  height: 30vh;
+  width: 15vw;
+}
+.actorSec h3{
+  color: #BB362A;
+  font-size: 1.4vw;
+  font-weight: 500;
+  margin-bottom: 1vh;
+}
+.actorSec span{
+  color: #BB362A;
+  font-size: 1.05vw;
+  font-weight: 400;
+}
+.actorSec p{
+  margin-bottom: 3vh;
+  margin-top: 1vh;
+}
+.rightSec{
+  padding: 0 2vw;
+  width: 81vw;
+}
+.role{
+  padding: 2px 10px;
+  border: 1px solid black;
+  margin-right: 1vw;
+  border-radius: 1rem;
+}
+.actorSec h2{
+  color: #BB362A;
+  font-size: 1.7vw;
+  font-weight: 600;
+  margin-top: 2vh;
+}
+.skills{
+  padding: 2px 10px;
+  background-color: #BB362A;
+  color: #fff;
+  font-size: 1.2vw;
+  font-weight: 400;
+  margin-right: 3.5vw;
+  margin-bottom: 1.5vh;
+  border-radius: 1rem;
+}
+.rightSec button{
+  background-color: #BB362A;
+  color: #fff;
+  height: 5vh;
+  width: 12vw;
+  margin-right: 2vw;
+  margin-top: 3vh;
+  border: none;
+  border-radius: .3rem;
+  cursor: pointer;
+}

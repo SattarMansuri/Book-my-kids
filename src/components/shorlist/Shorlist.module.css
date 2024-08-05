@@ -1,0 +1,13 @@
+.shorlist{
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.main{
+  margin: 8vh 3vw;
+}
+.main h2{
+color: #BB362A;
+font-size: 1.8vw;
+font-weight: 500;
+}

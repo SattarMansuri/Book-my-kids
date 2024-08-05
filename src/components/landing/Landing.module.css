@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.landing{
+  display: flex;
+  flex-direction: column;
+  font-family: montserrat;
+  overflow-x: hidden;
+}
+.up{
+  display: flex;
+  margin-top: 10vh;
+  margin-left: 12vw;
+  gap: 20vw;
+}
+.left h2{
+  color: #BB362A;
+  font-size: 1.8vw;
+  margin-bottom: 2vh;
+}
+.left p{
+  font-size: 1vw;
+}
+.left button{
+  height: 5vh;
+  width: 10vw;
+  background-color: #BB362A;
+  border: none;
+  font-size: 1.2vw;
+  font-weight: 500;
+  color: #fff;
+  border-radius: .5rem;
+  margin-top: 4vh;
+  cursor: pointer;
+}
+.right img{
+  height: 30vh;
+  width: 20vw;
+}
+.mid1{
+  margin-top: 5vh;
+  margin-left: 12vw;
+}
+.mid1 h2{
+  font-weight: 400;
+  color: #BB362A;
+  margin-bottom: 2vh;
+  font-size: 2.4vw;
+}
+.mid1 p{
+font-size: 1.2vw;
+/* margin-left: 1.5vw; */
+}
+.mid2{
+  margin-top: 5vh;
+  margin-left: 12vw;
+}
+.m2head{
+  display: flex;
+  gap: 55vw;
+}
+.m2head h2{
+  font-weight: 400;
+  color: #BB362A;
+  margin-bottom: 2vh;
+  font-size: 2.4vw;
+}
+.m2head button{
+height: 4.5vh;
+width: 8vw;
+border: 2px solid red;
+background-color: #fff;
+color: #BB362A;
+font-size: 500;
+font-size: 1.1vw;
+cursor: pointer;
+margin-top: 1.5vh;
+}
+.mid3{
+  background: linear-gradient(90deg, #010610 0%, #555658 100%);
+  height: 20vh;
+  width: 80vw;
+  margin-left: 12vw;
+  border-radius: .2rem;
+  margin-top: 5vh;
+  display: flex;
+  gap: 22vw;
+}
+.mid3 p{
+  color: #fff;
+  font-size: 1.1vw;
+  margin-top: 4vh;
+  margin-left: 3vw;
+}
+.mid3 button{
+  height: 5vh;
+  width: 15vw;
+  background-color: #BB362A;
+  font-size: 1.1vw;
+  font-weight: 500;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  margin-top: 8vh;
+  cursor: pointer;
+} 
+.mid4{
+  margin-top: 5vh;
+  margin-left: 12vw;
+  margin-bottom: 2vh;
+}
+.m4head{
+  display: flex;
+  gap: 5vw;
+  margin-bottom: 2vh;
+}
+.m4head h2{
+  font-weight: 400;
+  color: #BB362A;
+  margin-bottom: 2vh;
+  font-size: 2.4vw;
+}
+.m4head button{
+height: 4.5vh;
+width: 8vw;
+border: 2px solid red;
+background-color: #fff;
+color: #BB362A;
+font-size: 500;
+font-size: 1.1vw;
+cursor: pointer;
+margin-top: 1.5vh;
+}
+.categories{
+  display: flex;
+  gap: 8vw;
+}
+.category{
+  background: linear-gradient(180deg, #555658 0%, #B8BABE 100%);
+  box-shadow: 4px 4px 4px 0px #00000040;
+  height: 24vh;
+  width: 16vw;
+  border-radius: .5rem;
+  padding: 3vh 2vw;
+}
+.category span{
+  color: #fff;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+.category img{
+  height: 30vh;
+  width: 12vw;
+  margin-left: 6.5vw;
+  margin-top: -7vh;
+}
+.mid5{
+  background: linear-gradient(90deg, #010610 0%, #555658 100%);
+  height: 20vh;
+  width: 80vw;
+  margin-left: 12vw;
+  border-radius: .2rem;
+  margin-top: 5vh;
+  display: flex;
+  gap: 18vw;
+  margin-bottom: 8vh;
+}
+.mid5 p{
+  color: #fff;
+  font-size: 1.1vw;
+  margin-top: 5.5vh;
+  margin-left: 3vw;
+}
+.mid5 button{
+  height: 5vh;
+  width: 15vw;
+  background-color: #BB362A;
+  font-size: 1.1vw;
+  font-weight: 500;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  margin-top: 8vh;
+  cursor: pointer;
+}

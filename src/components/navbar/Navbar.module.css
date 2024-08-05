@@ -1,0 +1,39 @@
+.nav{
+  width: 100vw;
+  height: 6vh;
+  background-color: #000000;
+  display: flex;
+  gap: 20vw;
+  padding: 2vh 0;
+}
+.nav h1{
+color: #BB362A;
+margin-left: 2vw;
+font-size: 2vw;
+}
+.options{
+  color: #FFF;
+  padding-top: .5vh;
+}
+.nave{
+margin-left: 2vw;
+font-size: 1.2vw;
+cursor: pointer;
+text-decoration: none;
+color: #FFF;
+}
+.options span:hover{
+  color: aqua;
+}
+.options button{
+  height: 5vh;
+  width: 12vw;
+  margin-left: 2vw;
+  background-color: #BB362A;
+  font-size: 1.2vw;
+  font-weight: 500;
+  color: #FFF;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
